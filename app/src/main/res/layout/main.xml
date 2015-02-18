@@ -3,9 +3,30 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<RadioGroup
+		android:id="@+id/radio_group"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+		
+		<RadioButton
+			android:id="@+id/radio_dt2w"
+			android:text="@string/dt2w"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+		<RadioButton
+			android:id="@+id/radio_s2w"
+			android:text="@string/s2w"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+		<RadioButton
+			android:id="@+id/radio_disabled"
+			android:text="@string/disabled"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+	</RadioGroup>
 
 </LinearLayout>

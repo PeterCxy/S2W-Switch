@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">S2WSwitch</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">S2W Switch</string>
+    
+	<string name="dt2w">Double-Tap to wake</string>
+	<string name="s2w">Sweep to wake</string>
+	<string name="disabled">Disabled</string>
 
 </resources>
